@@ -33,7 +33,7 @@ public class Cat extends Pet {
 
 public class Owner {
     private String ownerName;
-    private Pet pet; // Composition: Owner "has a" Pet
+    private Pet pet;
 
     public Owner(String ownerName, Pet pet) {
         this.ownerName = ownerName;
@@ -42,7 +42,7 @@ public class Owner {
 
     public void introducePet() {
         System.out.println(ownerName + "'s pet:");
-        pet.speak(); // Polymorphism: pet could be a Dog or Cat
+        pet.speak(); 
     }
 }
 
