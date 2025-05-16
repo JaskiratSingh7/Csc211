@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Product {
     String name;
     double price;
@@ -52,7 +54,6 @@ public class Admin extends User {
     }
 }
 
-import java.util.List;
 
 public class Order {
     Customer customer;
